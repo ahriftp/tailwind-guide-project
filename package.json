@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-guide-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwind build src/style.css -o public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.2.17"
+  }
+}
