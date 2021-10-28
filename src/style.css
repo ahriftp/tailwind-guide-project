@@ -14,3 +14,14 @@
 .btn-white {
   @apply bg-bookmark-white hover:bg-bookmark-purple hover:text-white;
 }
+
+.accordion-box {
+  @apply flex items-center border-b py-4 cursor-pointer;
+}
+
+.accordion-panel {
+  @apply bg-bookmark-purple rounded-b-md text-white;
+  max-height: 0;
+  overflow: hidden;
+  transition: 1000ms ease max-height;
+}
